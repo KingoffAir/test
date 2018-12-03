@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Frederiko.ru</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
+
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="20">
+    <div class="container-fluid p-0 position-relative">
+      <header class="header">
+        <div class="header-wrap container p-xl-0">
+          <a href="./index.html" class="logo row flex-nowrap m-0">
+            <img src="./img/logo.png" alt="Frederiko" class="logo-img">
+            <div class="logo-info">
+              <span class="logo-info--name">Frederiko.ru</span>
+              <span class="logo-info--text">Скинали  и фартуки для кухни</span>
+            </div>
+          </a>
+          <nav id="navbar" class="nav d-none d-lg-flex flex-fill">
+            <a class="nav-link active" href="#home">Калькулятор</a>
+            <a class="nav-link" href="#privilege">Преимущества</a>
+            <a class="nav-link" href="#rate">Тарифы</a>
+            <a class="nav-link" href="#works">Наши работы</a>
+            <a class="nav-link" href="#reviews">Отзывы</a>
+          </nav>
+          <div class="contact d-flex flex-row flex-lg-column">
+            <div class="contact-num d-none d-md-flex flex-column">
+              <span class="contact-num--clock">9<sup>00</sup>-21<sup>00</sup> без выходных</span>
+              <span class="contact-num--phone">+7 (495) 236-85-40</span>
+            </div>
+            <div class="contact-call row m-0">
+              <span class="contact-call--icon d-lg-none"></span>
+              <span class="contact-call--text d-none d-sm-flex">Заказать звонок</span>
+            </div>
+          </div>
+          <div class="menu_btn d-flex d-lg-none">
+            <span class="menu_btn-line"></span>
+            <span class="menu_btn-line"></span>
+            <span class="menu_btn-line"></span>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div id="home" class="main_header position-relative">
+          <div class="main_header-carousel">
+            <div id="carouselMainHeader" class="carousel slide carousel-fade" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="main_header-carousel--grad"></div>
+                </div>
+                <div class="carousel-item">
+                  <div class="main_header-carousel--grad"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main_header-content container">
+            <h1 class="main_header-content--title">Душевые кабины из стекла <span class="gold">от 10 000 руб</span></h1>
+            <div class="main_header-content--form_wrap">
+              <form class="form_header" action="#">
+                <h3 class="form_header-title">Рассчитайте стоимость душевой кабины</h3>
+                <div class="form_header-choice d-flex flex-wrap">
+                  <div class="col-12 col-sm-6 p-0">
+                    <p class="form_titles">Прозрачность стекла:</p>
+                    <input type="radio" class="radio d-none" id="opaque" name="transparency" checked="checked">
+                    <label for="opaque" class="label">Матовое</label>
+                    <br>
+                    <input type="radio" class="radio d-none" id="transparent" name="transparency">
+                    <label for="transparent" class="label">Прозрачное</label>
+                  </div>
+                  <div class="col-12 col-sm-6 p-0">
+                    <p class="form_titles">Тип стекла:</p>
+                    <input type="radio" class="radio d-none" id="usual" name="type" checked="checked">
+                    <label for="usual" class="label">Обычное</label>
+                    <br>
+                    <input type="radio" class="radio d-none" id="optiwhite" name="type">
+                    <label for="optiwhite" class="label">Optiwhite</label>
+                  </div>
+                </div>
+                <div class="form_header-square d-flex flex-wrap">
+                  <p class="form_titles_square">Площадь душевой кабины:</p>
+                  <div class="form_header-square--wrap d-flex">
+                    <span class="minus"></span>
+                    <input type="number" class="input-square" name="comment" value="1" step="0.1" min="1" max="10000">
+                    <p class="metr">м</p>
+                    <span class="plus"></span>
+                  </div>
+                </div>
+                <input type="submit" class="form_header-btn" value="Рассчитать">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="privilege" class="main_privilege container p-xl-0">
+          <h2 class="main_titles-black">Наши преимущества</h2>
+          <div class="main_privilege-cards d-flex flex-row flex-wrap">
+            <div class="cards col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege1.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Обеспечиваем<br>высокое качество стекла</span>
+              </div>
+              <p class="cards-text">Используем итальянское стекло. Производим двойной контроль качества.</p>
+            </div>
+            <div class="cards col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege2.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Собственное<br>производство</span>
+              </div>
+              <p class="cards-text">Производим стекло с 2011 года, на своём оборудовании.</p>
+            </div>
+            <div class="cards col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege3.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Срок изготовления<br>7 рабочих дней</span>
+              </div>
+              <p class="cards-text">Если не успеем &mdash; стекло бесплатно.</p>
+            </div>
+            <div class="cards col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege4.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Безопасное,<br>ударостойкое стекло</span>
+              </div>
+              <p class="cards-text">Свверхпрочное, жаростойкое и ударопрочное стекло.</p>
+            </div>
+            <div class="cards col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege5.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Никаких скрытых<br>наценок и доплат</span>
+              </div>
+              <p class="cards-text">Точную цену вы можете посмотреть на сайте или узнать по телефону.</p>
+            </div>
+            <div class="cards d-none d-md-block col-12 col-md-6 col-lg-4 p-0">
+              <div class="cards-top d-flex align-items-end">
+                <div class="cards-top--icon col-3">
+                  <img src="./img/privilege/privilege6.png" alt="image" class="cards-top--icon_img">
+                </div>
+                <span class="cards-top--name col-9 p-0">Гарантируем<br>качество</span>
+              </div>
+              <p class="cards-text">Гарантия на стекло 5 лет, в договоре.</p>
+            </div>
+          </div>
+        </div>
+        <div id="works" class="main_works container p-xl-0">
+          <h2 class="main_titles-white">Наши работы</h2>
+          <div id="carouselWorks" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-item-wrap">
+                  <div class="main_works-slide col-12 col-lg-6 p-0">
+                    <img src="./img/work-slide1.jpg" class="main_works-slide--img" alt="First slide">
+                  </div>
+                  <div class="main_works-info col-12 col-lg-6 p-0">
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Состав</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">1 дверь (2000*800)</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Материал</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Стекло AGC (Бельгия) 8 мм, еврокромка, закаленное</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Тип двери</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Распашная</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Фурнитура</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Петли, коннекторы, штанга + держатели, ручка-кноб, уплотнитель</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Срок выполнения</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">5 дней</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name d-flex align-items-center col-5 col-sm-4 p-0">Стоимость от</p>
+                      <p class="main_works-items--price col-7 col-sm-8 p-0">58 500 <span>руб.</span></p>
+                    </div>
+                    <button class="main_works-info--btn want">Хочу такое же</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-wrap">
+                  <div class="main_works-slide col-12 col-lg-6 p-0">
+                    <img src="./img/work-slide2.jpg" class="main_works-slide--img" alt="First slide">
+                  </div>
+                  <div class="main_works-info col-12 col-lg-6 p-0">
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Состав</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">1 дверь (2000*800)</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Материал</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Стекло AGC (Бельгия) 8 мм, еврокромка, закаленное</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Тип двери</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Распашная</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Фурнитура</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">Петли, коннекторы, штанга + держатели, ручка-кноб, уплотнитель</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name col-6 col-sm-4 p-0">Срок выполнения</p>
+                      <p class="main_works-items--text col-6 col-sm-8 p-0">5 дней</p>
+                    </div>
+                    <div class="main_works-info--items d-flex">
+                      <p class="main_works-items--name d-flex align-items-center col-5 col-sm-4 p-0">Стоимость от</p>
+                      <p class="main_works-items--price col-7 col-sm-8 p-0">58 500 <span>руб.</span></p>
+                    </div>
+                    <button class="main_works-info--btn want">Хочу такое же</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-control">
+              <a class="carousel-control-prev" href="#carouselWorks" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselWorks" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="carousel-counter">
+              <span class="carousel-counter--slide">1</span>
+              /
+              <span class="carousel-counter--all">10</span>
+            </p>
+          </div>
+        </div>
+        <div id="rate" class="main_rate container p-xl-0">
+          <h2 class="main_titles-black">Тарифы</h2>
+          <div id="carouselRate" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner d-lg-flex">
+              <div class="carousel-item d-lg-block col-lg-6 p-0 active">
+                <div class="main_rate-card">
+                  <h3 class="main_rate-card--title">Кленое стекло</h3>
+                  <p class="main_rate-card--info">Сверхпрочное, жаро и ударостойкое стекло</p>
+                  <p class="main_rate-card--info">Каленое стекло имеет зеленоватый оттенок, что искажает светлые тона и цветовые комбинации</p>
+                  <p class="main_rate-card--info">Цена каленого стекла немного ниже</p>
+                  <p class="main_rate-card--info">Оптимально для небольших пространств и цветных рисунков</p>
+                  <div class="d-flex justify-content-center align-items-center pt-2 pt-lg-3">
+                    <p class="main_rate-card--text">Стоимость:</p>
+                    <p class="main_rate-card--price">14 300<span class="main_rate-card--text">руб.</span></p>
+                  </div>
+                  <button class="main_rate-card--btn want">Хочу такое же</button>
+                </div>
+              </div>
+              <div class="carousel-item d-lg-block col-lg-6 p-0">
+                <div class="main_rate-card bg-blue">
+                  <h3 class="main_rate-card--title">Стекло Optiwhite</h3>
+                  <p class="main_rate-card--info">Сверхпрочное, жаро и ударостойкое стекло</p>
+                  <p class="main_rate-card--info">Стекло Optiwhite абсолютно прозрачное, точно передает любые особенности рисунка</p>
+                  <p class="main_rate-card--info">Цена стекла Optiwhite немного выше</p>
+                  <p class="main_rate-card--info">Подходит для больших площадей и черно-белых рисунков</p>
+                  <div class="d-flex justify-content-center align-items-center pt-2 pt-lg-3">
+                    <p class="main_rate-card--text">Стоимость:</p>
+                    <p class="main_rate-card--price">19 300<span class="main_rate-card--text">руб.</span></p>
+                  </div>
+                  <button class="main_rate-card--btn want">Хочу такое же</button>
+                </div>
+              </div>
+            </div>
+            <div class="main_rate-carousel_control d-lg-none">
+              <a class="carousel-control-prev" href="#carouselRate" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselRate" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <p class="main_rate-carousel_counter d-lg-none">
+              <span class="main_rate-carousel_counter--slide">1</span>
+              /
+              <span class="main_rate-carousel_counter--all">10</span>
+            </p>
+          </div>
+        </div>
+        <div class="main_products container p-xl-0">
+          <h2 class="main_titles-white">Дополнительная продукция</h2>
+          <div class="main_products-content">
+            <div class="main_products-content--wrap col-12 p-0">
+              <div class="main_products-item open col-12 col-lg-6 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Скинали</p>
+                <div class="main_products-item--card long">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product1.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Скинали</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Модульные картины</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product2.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Модульные картины из стекла</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Фоточасы</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product3.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Фоточасы</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+            </div>
+            <div class="main_products-content--wrap col-12 p-0">
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Столешницы</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product4.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Столешницы</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Зеркала</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product5.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Зеркала</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Фотокартины</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product6.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Фотокартины</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-item col-12 col-lg-3 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Стеклянные двери</p>
+                <div class="main_products-item--card short">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product7.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Стеклянные двери</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+            </div>
+            <div class="main_products-content--wrap flex-lg-row-reverse col-12 p-0">
+              <div class="main_products-item col-12 col-lg-6 p-0">
+                <p class="main_products-item--title flex-fill d-lg-none">Экраны для радиаторов</p>
+                <div class="main_products-item--card long">
+                  <div class="main_products-item--card_img">
+                    <img src="./img/products/product8.jpg" alt="image">
+                  </div>
+                  <p class="main_products-item--card_text d-none">Экраны для радиаторов</p>
+                  <button class="main_products-item--card_btn want">Заказать размер</button>
+                </div>
+              </div>
+              <div class="main_products-info col-12 col-lg-6 p-0">
+                <p class="main_products-info--text">Хотите узнать больше?</p>
+                <p class="main_products-info--text">Оставьте заявку и мы свяжемся с вами.</p>
+                <button class="main_products-info--btn want">Узнать больше</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="reviews" class="main_reviews container-fluid p-0">
+          <div class="container p-xl-0">
+            <h2 class="main_titles-black">Отзывы</h2>
+          </div>
+          <div class="main_reviews-gradient position-relative">
+            <div class="main_reviews-carousel_wrap container p-xl-0">
+              <div class="main_reviews-carousel">
+                <div class="main_reviews-carousel--content position-relative">
+                  <div class="main_reviews-carousel--content_grad position-absolute d-lg-none">
+                    <div class="main_reviews-grad_wrap d-flex">
+                      <div class="main_reviews-grad_wrap--plus position-relative">
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                      </div>
+                      <p class="main_reviews-grad_wrap--title">Развернуть отзыв</p>
+                    </div>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <span class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга подобрала еще несколько вариантов возможных фото, 
+                      помогла с выбором и внесла некоторые коррективы в
+                    </span>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <span class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга
+                    </span>
+                  </div>
+                  
+                </div>
+                <div class="main_reviews-carousel--content position-relative">
+                  <div class="main_reviews-carousel--content_grad position-absolute d-lg-none">
+                    <div class="main_reviews-grad_wrap d-flex">
+                      <div class="main_reviews-grad_wrap--plus position-relative">
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                      </div>
+                      <p class="main_reviews-grad_wrap--title">Развернуть отзыв</p>
+                    </div>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <p class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга подобрала еще несколько вариантов возможных фото, 
+                      помогла с выбором и внесла некоторые коррективы в конечный дизайн скинали. А замерщик Антон вовремя приехал, сделал замеры и дал все необходимые объяснения. 
+                      само производство заняло не много времени, и когда позвонил Владимир на счет установки, я была несколько удивлена, тк скинали были готовы даже раньше срока, 
+                      что конечно очень порадовало!!! установили отлично, качество очень понравилось!!!
+                      <span class="transparent_str d-none d-lg-block"></span>
+                      Наша семья очень довольна нашей кухней, на которой яркой изюминкой и украшением являются скинали, которые создали в компании Glasspower! 
+                      Спасибо вам большое за вашу КРАСИВУЮ работу!!!
+                    </p>
+                  </div>
+                </div>
+                <div class="main_reviews-carousel--content position-relative">
+                  <div class="main_reviews-carousel--content_grad position-absolute d-lg-none">
+                    <div class="main_reviews-grad_wrap d-flex">
+                      <div class="main_reviews-grad_wrap--plus position-relative">
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                      </div>
+                      <p class="main_reviews-grad_wrap--title">Развернуть отзыв</p>
+                    </div>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <span class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга подобрала еще несколько вариантов возможных фото, 
+                      помогла с выбором и внесла некоторые коррективы в
+                    </span>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <span class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга
+                    </span>
+                  </div>
+                </div>
+                <div class="main_reviews-carousel--content position-relative">
+                  <div class="main_reviews-carousel--content_grad position-absolute d-lg-none">
+                    <div class="main_reviews-grad_wrap d-flex">
+                      <div class="main_reviews-grad_wrap--plus position-relative">
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                        <span class="main_reviews-grad_wrap--plus_line"></span>
+                      </div>
+                      <p class="main_reviews-grad_wrap--title">Развернуть отзыв</p>
+                    </div>
+                  </div>
+                  <div class="main_reviews-carousel--content_item">
+                    <p class="main_reviews-content_item--name">Светлана</p>
+                    <p class="main_reviews-content_item--text">Доброго времени суток! Хочу сказать команде Glasspower большое спасибо! за качество, за слаженность в работе, 
+                      за профессионализм и за пунктуальность! вся работа от начала и до конца была выполнена на достойном уровне профессионалов. сначала выслала фото кухни и фото скинали, 
+                      которые планировала. и очень быстро получила от Светланы фото моей кухни с фартуком. Дизайнер Ольга подобрала еще несколько вариантов возможных фото, 
+                      помогла с выбором и внесла некоторые коррективы в конечный дизайн скинали. А замерщик Антон вовремя приехал, сделал замеры и дал все необходимые объяснения. 
+                      само производство заняло не много времени, и когда позвонил Владимир на счет установки, я была несколько удивлена, тк скинали были готовы даже раньше срока, 
+                      что конечно очень порадовало!!! установили отлично, качество очень понравилось!!!
+                      <span class="transparent_str d-none d-lg-block"></span>
+                      Наша семья очень довольна нашей кухней, на которой яркой изюминкой и украшением являются скинали, которые создали в компании Glasspower! 
+                      Спасибо вам большое за вашу КРАСИВУЮ работу!!!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main_reviews-gradient--left d-none d-lg-block"></div>
+            <div class="main_reviews-gradient--right d-none d-lg-block"></div>
+          </div>
+          <div class="main_reviews-slider_wrap container p-sm-0">
+            <div class="main_reviews-slider"></div>
+            <div class="main_reviews-help d-flex">
+              <div class="main_reviews-help--icon"></div>
+              <p class="main_reviews-help--text">Двигайте ползунок</p>
+            </div>
+          </div>
+        </div>
+        <div class="main_info container p-sm-0">
+          <div class="main_info-wrap position-relative">
+            <div class="main_info-gradient d-md-none position-absolute"></div>
+            <div class="main_info-content position-relative">
+              <h2 class="main_info-content--title">Узнайте сколько будет стоить стекло для вашей ванной</h2>
+              <form action="#" class="main_info-content--form form_info">
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                  <input class="main_info-content--form_input form_info-name" type="text" name="ima_kl" placeholder="Введите ваше имя">
+                  <label class="main_info-content--error lab_info-name lab" for="ima_kl">Имя введено некорректно</label>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-0">
+                  <input class="main_info-content--form_input form_info-tel" type="tel" name="telefon_lida" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+                  <label class="main_info-content--error lab_info-tel lab" for="telefon_lida">Неверный формат телефона</label>
+                </div>
+                <div class="col-12 col-lg-4 p-0 position-relative">
+                  <input class="main_info-content--form_btn" type="submit" value="Заказать бесплатный замер">
+                  <p class="main_info-form_btn--note position-absolute">
+                    Отправляя заявку вы соглашаетесь с
+                    <a href="#" class="main_info-form_btn--link"> обработкой данных</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer container p-sm-0">
+        <div class="footer_wrap">
+          <div class="footer_wrap-top">
+            <a href="#home" class="footer_wrap-top--logo row flex-nowrap m-0">
+              <img src="./img/logo.png" alt="Frederiko" class="footer_wrap-top--logo_img">
+              <div class="footer_wrap-top--logo_info">
+                <span class="footer_wrap-logo_info--name">Frederiko.ru</span>
+                <span class="footer_wrap-logo_info--text">Скинали  и фартуки для кухни</span>
+              </div>
+            </a>
+            <div class="footer_wrap-top--info position-relative">
+              <div class="footer_wrap-info_items">
+                <span class="footer_wrap-info_items--icon"></span>
+                <p class="footer_wrap-info_items--text">г.Москва БЦ "Вега"<br>(ул. Вербная, д.8с1, оф.207)<br><span>info@frederiko.ru</span></p>
+              </div>
+              <div class="footer_wrap-info_items">
+                <span class="footer_wrap-info_items--icon"></span>
+                <p class="footer_wrap-info_items--text">Мы работаем: <br>с 9 до 21 Без выходных</p>
+              </div>
+              <a href="#home" class="footer_wrap-info_items position-absolute">
+                <span class="footer_wrap-info_items--icon"></span>
+                <p class="footer_wrap-info_items--text d-none d-lg-block">Вверх</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer_wrap-bottom">
+            <a href="#" class="footer_wrap-bottom--politics">Политика конфиденциальности</a>
+            <p class="footer_wrap-bottom--copy">&copy; "Frederiko.ru" 2014 - 2017. Все права защищены.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="modal_request">
+      <div class="modal_request-wrap container position-relative">
+        <div class="modal_request-close"><span class="modal_request-close--line"></span><span class="modal_request-close--line"></span></div>
+        <h2 class="modal_request-title">Узнайте сколько будет стоить стекло для вашей ванной</h2>
+        <form action="#" class="modal_request-form form_modal">
+          <div class="col-12 col-md-6 p-0">
+            <input class="modal_request-form--input form_modal-name" type="text" name="ima_kl" placeholder="Введите ваше имя">
+            <label class="modal_request-form--error lab_modal-name lab" for="ima_kl">Имя введено некорректно</label>
+          </div>
+          <div class="col-12 col-md-6 p-0">
+            <input class="modal_request-form--input form_modal-tel" type="tel" name="telefon_lida" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ">
+            <label class="modal_request-form--error lab_modal-tel lab" for="telefon_lida">Неверный формат телефона</label>
+          </div>
+          <div class="col-12 p-0">
+            <input class="modal_request-form--btn" type="submit" value="Заказать звонок" name="send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal_nav">
+      <div class="modal_nav-wrap container">
+        <div class="modal_nav-close"><span class="modal_nav-close--line"></span><span class="modal_nav-close--line"></span></div>
+        <nav class="nav nav-mobile container">
+          <a class="nav-link nav-link_mobile col-12 active-mobile" href="#home">Калькулятор</a>
+          <a class="nav-link nav-link_mobile col-12" href="#privilege">Преимущества</a>
+          <a class="nav-link nav-link_mobile col-12" href="#rate">Тарифы</a>
+          <a class="nav-link nav-link_mobile col-12" href="#works">Наши работы</a>
+          <a class="nav-link nav-link_mobile col-12" href="#reviews">Отзывы</a>
+        </nav>
+      </div>
+    </div>
+
+
+    
+      
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/maskedinput.js"></script>
+    <script src="./js/bundle.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    
+    
+  </body>
+</html>
